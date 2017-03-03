@@ -1,0 +1,6 @@
+<%= form_for(@song) do |a| %>
+ <%= a.text_field :name, placeholder: "Name" %><br>
+ <%= a.text_field :artist_id, placeholder: "Artist ID" %><br>
+ <%= a.text_field :genre_id, placeholder: "Genre ID" %><br>
+ <%= a.submit %>
+ <% end %>

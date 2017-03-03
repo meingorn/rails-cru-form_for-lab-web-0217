@@ -1,0 +1,5 @@
+<%= form_for(@artist) do |a| %>
+ <%= a.text_field :name, placeholder: "Name" %><br>
+ <%= a.text_area :bio, placeholder: "Bio" %><br>
+ <%= a.submit %>
+ <% end %>
